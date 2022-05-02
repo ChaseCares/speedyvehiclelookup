@@ -1,0 +1,202 @@
+/* applying the background color to the body and 0 margin to the main headers */
+body,
+h1 {
+    margin: 0;
+    background-color: #b9b9b9;
+}
+
+/* nav bar formatting, applying the background colors and styling */
+li a {
+    display: block;
+    color: #d3d3d3;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* nav bar formatting, applying styling and spacing */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* limiting images to 50% with */
+img {
+    width: 50%;
+}
+
+/* nav bar formatting, applying styling, spacing, width sizing and setting the position to be fixed  */
+nav {
+    width: 13%;
+    min-width: 185px;
+    max-width: 300px;
+    top: 0;
+    background-color: #353535;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/* applying text align center and setting the medics with */
+form {
+    margin: auto;
+    text-align: center;
+    max-width: 35%;
+}
+
+/* active link sets the background color to highlight the page in the nev bar */
+li a.active {
+    background-color: #b8690e;
+    color: white;
+}
+
+/* aligning the footer to the bottom right */
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 1%;
+}
+
+/* applying a hover effect that is responsive to the cursor */
+li a:hover:not(.active) {
+    background-color: #555555;
+    color: white;
+}
+
+/* applying the styling and sizing for the password field */
+input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* positioning the checkbox */
+input[type=checkbox] {
+    margin: auto;
+}
+
+/* applying the styling and sizing for the text fields */
+input[type=text],
+input[type=list],
+select,
+datalist,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* main container for all content in the body div */
+.container {
+    margin-left: calc(max(min(13%, 300px), 185px));
+    text-align: center;
+}
+
+/* formatting for text content within the body */
+.content {
+    display: flex;
+}
+
+/* applying margin and a border to all form areas */
+.formContainer {
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 30%;
+    border: 3px solid #955000;
+}
+
+/* setting the sizing and background color for the nav bar image */
+.navBarImg {
+    background-color: #955000;
+    width: 100%;
+    margin-bottom: -4px;
+    padding: 0;
+}
+
+/* formatting for text content within the body */
+.contentsWrapper {
+    margin-left: 20%;
+    width: 50%;
+    min-width: 300px;
+}
+
+/* Setting a the width with the main image */
+.imageMain {
+    width: 100%;
+}
+
+/* Setting the width for the gallery images */
+.gallery {
+    width: 90%;
+}
+
+/* Creating on error styling */
+.error {
+    color: #bb0000 !important;
+}
+
+.hiddenError{
+    display: none;
+}
+
+/* Social media styling */
+/* Styling for the social media links */
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+/* Creating the a hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Setting the appropriate colors for the specific social media */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Setting the appropriate colors for the specific social media */
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* Setting the appropriate colors for the specific social media */
+.fa-flickr {
+    background: #f40083;
+    color: white;
+}
+
+/* Setting the appropriate colors for the specific social media */
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
